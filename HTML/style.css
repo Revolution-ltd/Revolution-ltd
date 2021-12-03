@@ -1,0 +1,42 @@
+body {
+  background-color: rosybrown;
+  color: black;
+  text-align: center;
+  
+}
+
+.container{
+  max-width: 1000px;
+  margin: auto;
+  padding: 15px;
+}
+h1 {
+  color: violet;
+}
+
+p {
+  font-size: 40px;
+}
+.doan-van-1 {
+  color: yellow;
+}
+
+.doan-van-2 {
+  color: rgb(32, 131, 145);
+}
+.doan-van-3 {
+  color: rgb(71, 6, 145);
+}
+
+.hinhanh1 {
+  width: 100%;
+  
+}
+
+.hinhanh2 {
+  min-width: 100%;
+}
+
+.hinhanh3 {
+  max-width: 100%;
+}
