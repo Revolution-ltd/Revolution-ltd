@@ -1,0 +1,61 @@
+.container{
+    max-width: 1000px;
+    margin: auto;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .danhmucsanpham{
+    text-align: center;
+      font-size: 40px;
+     color: rgb(5, 71, 133);
+  }
+.sanpham{
+    width: 100%;
+    max-width: 300px;
+}
+
+.chitiet{
+    max-width: 1000px;
+    padding: 15px;
+    text-align: center;
+
+    margin: auto;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+}
+.chitietsanpham{
+    width: 100%;
+    max-width: 500px;
+}
+
+.noidungsanpham {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: left;
+}
+.noidung {
+    margin-left: 10px;
+    text-align: left;
+    font-size: 20px;
+    width: 100%;
+}
+.column-1 {
+    width: 31%;
+}
+.column-2 {
+    width: 10%;
+   
+}
+.column-gia {
+    width: 10%;
+    color: crimson;
+}
