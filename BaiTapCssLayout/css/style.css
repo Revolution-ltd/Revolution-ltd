@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    max-width: 1000px;
+}
+
+
+
+.containerA div{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;    
+}
+.blockA1 {
+  background-color: red;
+  height: 400px;
+  width: 60%;
+  
+}
+
+.blockA2 {
+  background-color: blue;
+  height: 200px;
+  width: 40%;
+  
+}
+
+.blockA3 {
+  background-color: green;
+  height: 200px;
+  width: 40%;
+  
+}
+
+.containerB div{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;    
+    
+}
+.blockB1 {
+  background-color: red;
+  height: 400px;
+ 
+  width: 57%;
+  margin-right: 15px;
+  
+}
+
+.blockB2 {
+  background-color: blue;
+  height: 200px;
+  width: 40%;
+  
+}
+
+.blockB3 {
+  background-color: green;
+  height: 200px;
+  width: 40%;
+
+  
+}
+
+.containerC{
+    display: flex;
+    
+}
+
+.containerC div{
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 400px;
+  width: 50%;
+}
+.blockC1 {
+  background-color: red;
+  
+  
+}
+
+.blockC2 {
+  background-color: blue;
+
+ 
+}
+
+.blockC3 {
+  background-color: green;
+ 
+ 
+}
+
+
+.containerD{
+    display: flex;
+    
+}
+
+.containerD div{
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 400px;
+    width: 50%;
+    margin: 7.5px;
+}
+.blockD1 {
+  background-color: red;
+  
+  
+}
+
+.blockD2 {
+  background-color: blue;
+
+ 
+}
+
+.blockD3 {
+  background-color: green;
+ 
+ 
+}
