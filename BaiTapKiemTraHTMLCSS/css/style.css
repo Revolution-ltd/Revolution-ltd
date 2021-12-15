@@ -1,0 +1,166 @@
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+}
+
+#menu ul {
+  background: #1f568b;
+  list-style-type: none;
+  text-align: center;
+}
+
+#menu li {
+  color: #f1f1f1;
+  display: inline-block;
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: -5px;
+}
+
+#menu a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+#menu a:hover {
+  background: #f1f1f1;
+  color: #333;
+}
+
+.banner {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.danhmuc {
+  max-width: 1200px;
+  margin: auto;
+  background-color: green;
+  text-align: center;
+  font-size: 30px;
+}
+body {
+  margin: 0;
+  background-color: rgb(155, 173, 155);
+}
+
+img {
+  max-width: 100%;
+  margin-top: 12px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transition: 1s;
+}
+
+.center:hover {
+  max-width: 90%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: white;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list {
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  width: 33.33333333%;
+  width: calc(33.33333333% - 30px);
+  margin: 15px;
+  background-color: rgb(117, 155, 142);
+  border-radius: 3px;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.product-name {
+  margin: 10px 0;
+  font-size: 25px;
+  padding-left: 8px;
+  text-align: center;
+}
+
+.rauxanh {
+  position: absolute;
+  top: 0;
+  left: -10px;
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 30px;
+  color: red;
+  background-color: green;
+  padding-right: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.rauxanh::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  border-top: 10px solid green;
+  border-left: 10px solid transparent;
+  filter: brightness(60%);
+}
+
+.rauxanh span {
+  color: rgb(255, 255, 255);
+  padding: 0 5px 0;
+  right: 0;
+}
+
+.chitiet {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  margin-top: 12px;
+}
+
+.hinhanh {
+  max-width: 400px;
+}
+
+.noidung {
+  max-width: calc(100% - 400px);
+  font-size: 20px;
+  padding-left: 20px;
+  text-align: justify;
+}
+
+p {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+footer {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
